@@ -21,7 +21,7 @@ export default function CtaSection() {
           and elegance of a custom-built sauna experience.
         </p>
         <Link
-          href="/contact"
+          href="/contact-us"
           className="bg-white text-amber-600 px-8 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100 transition"
         >
           Get a Quote

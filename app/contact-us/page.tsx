@@ -48,7 +48,7 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-amber-500 text-2xl" />
-              <span>+91 98765 43210</span>
+              <span>+1  7192462128</span>
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-500 text-2xl" />

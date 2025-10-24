@@ -7,21 +7,21 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "Spa Owner",
-    photo: "/testimonials/user1.webp",
+    photo: "/images/testimonial-1.jpeg",
     review:
       "Luxury Saunas transformed our spa experience. The design and quality are unmatched!",
   },
   {
     name: "Michael Lee",
     role: "Home Owner",
-    photo: "/testimonials/user2.webp",
+    photo: "/images/testimonial-2.jpeg",
     review:
       "The custom sauna we got is perfect for relaxation. Highly recommend Luxury Saunas!",
   },
   {
     name: "Emma Davis",
     role: "Resort Manager",
-    photo: "/testimonials/user3.webp",
+    photo: "/images/testimonial-1.jpeg",
     review:
       "Professional, timely, and luxurious. Our guests absolutely love the sauna installations.",
   },

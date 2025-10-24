@@ -60,7 +60,7 @@ export default function AboutPage() {
               We pride ourselves on attention to detail and customer satisfaction. From ambient lighting to calming music, every element is carefully designed to provide an unforgettable luxury sauna experience.
             </p>
             <Link
-              href="/contact"
+              href="/contact-us"
               className="bg-amber-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-600 transition"
             >
               Get in Touch
@@ -113,7 +113,7 @@ export default function AboutPage() {
           Visit Luxury Saunas for a rejuvenating escape and discover the ultimate in relaxation and wellness.
         </p>
         <Link
-          href="/contact"
+          href="/contact-us"
           className="bg-white text-amber-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
         >
           Contact Us Today

@@ -65,7 +65,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-amber-500 text-xl" />
-              <span>+91 98765 43210</span>
+              <span>+1  7192462128</span>
             </li>
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-amber-500 text-xl" />
@@ -84,7 +84,7 @@ export default function Footer() {
           <div className="flex space-x-4">
             {[
               { icon: <FaFacebookF />, href: "https://facebook.com" },
-              { icon: <FaInstagram />, href: "https://instagram.com" },
+              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
               { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
               { icon: <FaYoutube />, href: "https://youtube.com" },
             ].map(({ icon, href }, idx) => (

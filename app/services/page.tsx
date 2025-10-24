@@ -90,7 +90,7 @@ export default function ServicesPage() {
                 </h3>
                 <p className="text-gray-600 mb-4">{service.desc}</p>
                 <Link
-                  href="/contact"
+                  href="/contact-us"
                   className="inline-block bg-amber-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-amber-600 transition"
                 >
                   Learn More
@@ -144,7 +144,7 @@ export default function ServicesPage() {
           Ready to Bring Luxury to Your Space?
         </motion.h2>
         <Link
-          href="/contact"
+          href="/contact-us"
           className="bg-white text-amber-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
         >
           Get a Quote
