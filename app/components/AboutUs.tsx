@@ -46,13 +46,13 @@ The contact phone number for Luxury Saunas is currently not available, but they 
           className="flex-1 relative w-full h-[400px] md:h-[500px]"
         >
           <Image
-            src="/img/about.jpeg"
+            src="/img/about.JPEG"
             alt="Luxury Sauna Interior"
             fill
             className="object-cover rounded-2xl shadow-xl"
           />
           {/* Decorative Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent rounded-2xl" />
+          <div className="absolute inset-0 bg-gradient-to from-black/20 via-transparent rounded-2xl" />
         </motion.div>
       </div>
     </section>

@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  { src: "/img/about.jpeg", caption: "Experience Pure Relaxation" },
+  { src: "/img/about.JPEG", caption: "Experience Pure Relaxation" },
   { src: "/banner/banner2.jpg", caption: "Luxury Meets Wellness" },
   { src: "/banner/banner3.jpg", caption: "Redefine Your Comfort" },
 ];

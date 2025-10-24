@@ -10,31 +10,31 @@ const products = [
   {
     name: "Luxury Indoor Sauna",
     desc: "Crafted from high-quality cedar wood, designed for elegance and comfort in any home interior.",
-    image: "/images/project-1.jpeg",
+    image: "/images/project-1.JPEG",
     video: "/videos/video-1.MOV",
   },
   {
     name: "Outdoor Barrel Sauna",
     desc: "An architectural masterpiece for your backyard — modern design, pure relaxation.",
-    image: "/images/project-2.jpeg",
+    image: "/images/project-2.JPEG",
     video: "/videos/video-2.MOV",
   },
   {
     name: "Infrared Sauna Cabin",
     desc: "Revolutionary infrared heating technology that rejuvenates your body from the inside out.",
-    image: "/images/project-4.jpeg",
+    image: "/images/project-4.JPEG",
     video: "/videos/video-3.mp4",
   },
   {
     name: "Steam Room Deluxe",
     desc: "Experience the healing power of steam in our beautifully designed luxury steam rooms.",
-    image: "/images/project-5.jpeg",
-    video: "/videos/video-4.mov",
+    image: "/images/project-5.JPEG",
+    video: "/videos/video-4.MOV",
   },
   {
     name: "Custom Sauna Design",
     desc: "Tailor-made saunas built to your specifications, aesthetics, and wellness goals.",
-    image: "/images/project-6.jpeg",
+    image: "/images/project-6.JPEG",
     video: "/videos/video-5.MOV",
   },
   {
@@ -61,7 +61,7 @@ export default function Projects() {
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-3.jpeg')] bg-cover bg-center">
+      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-3.JPEG')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

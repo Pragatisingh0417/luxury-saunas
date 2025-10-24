@@ -6,10 +6,10 @@ import Link from "next/link";
 
 
 const projects = [
-  { src: "/images/project-1.jpeg", title: "Home Sauna Suite" },
-  { src: "/images/project-2.jpeg", title: "Resort Wellness Spa" },
-  { src: "/images/project-5.jpeg", title: "Luxury Fitness Sauna" },
-  { src: "/images/project-4.jpeg", title: "Private Relaxation Cabin" },
+  { src: "/images/project-1.JPEG", title: "Home Sauna Suite" },
+  { src: "/images/project-2.JPEG", title: "Resort Wellness Spa" },
+  { src: "/images/project-5.JPEG", title: "Luxury Fitness Sauna" },
+  { src: "/images/project-4.JPEG", title: "Private Relaxation Cabin" },
 ];
 
 export default function OurProjects() {
