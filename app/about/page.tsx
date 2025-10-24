@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-1.jpeg')] bg-cover bg-center">
+      <section className="relative h-[60vh] md:h-[80vh] sm:h-[60vh] xs:h-[45vh] flex items-center justify-center bg-[url('/images/services-1.jpeg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

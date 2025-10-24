@@ -22,7 +22,7 @@ export default function Slider() {
   }, []);
 
   return (
-    <section className="relative w-full h-[90vh] overflow-hidden">
+    <section className="relative w-full h-[60vh] md:h-[80vh] sm:h-[60vh] xs:h-[45vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
@@ -41,16 +41,16 @@ export default function Slider() {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/10" />
+          <div className="absolute inset-0 bg-black/30" />
 
           {/* Caption */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6">
             <motion.h2
               key={images[index].caption}
               initial={{ y: 40, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8 }}
-              className="text-3xl md:text-5xl font-extrabold drop-shadow-lg mb-4"
+              className="text-xl xs:text-2xl sm:text-3xl md:text-5xl font-extrabold drop-shadow-lg mb-2 sm:mb-4 leading-tight"
             >
               {images[index].caption}
             </motion.h2>
@@ -58,7 +58,7 @@ export default function Slider() {
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-lg md:text-xl text-gray-200 max-w-2xl"
+              className="text-xs xs:text-sm sm:text-base md:text-lg text-gray-200 max-w-md md:max-w-2xl"
             >
               Discover the art of relaxation and comfort at Luxury Saunas.
             </motion.p>
@@ -67,13 +67,13 @@ export default function Slider() {
       </AnimatePresence>
 
       {/* Dots Navigation */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-3">
+      <div className="absolute bottom-4 sm:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 sm:space-x-3">
         {images.map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              i === index ? "bg-amber-500 w-5" : "bg-white/70"
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
+              i === index ? "bg-amber-500 w-4 sm:w-5" : "bg-white/70"
             }`}
           />
         ))}
