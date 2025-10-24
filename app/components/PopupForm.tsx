@@ -45,10 +45,10 @@ export default function PopupForm() {
         ref={popupRef}
         className="bg-white rounded-2xl shadow-2xl w-full max-w-[800px] overflow-hidden flex flex-col md:flex-row relative animate-fadeIn"
       >
-        {/* Close button (always visible) */}
+        {/* Close button with white background */}
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute top-3 right-3 text-gray-900 hover:text-gray-800 text-3xl leading-none z-50"
+          className="absolute top-3 right-3 bg-white text-gray-800 hover:bg-gray-100 shadow-md rounded-full w-8 h-8 flex items-center justify-center text-2xl font-bold z-50 transition-all"
           aria-label="Close popup"
         >
           ×
