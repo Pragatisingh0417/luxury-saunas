@@ -61,7 +61,7 @@ export default function Projects() {
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-3.JPEG')] bg-cover bg-center">
+      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-3.jpeg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

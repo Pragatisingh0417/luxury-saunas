@@ -34,7 +34,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
           >
             <Image
-              src="/banner/banner-4.jpeg"
+              src="/banner/banner-4.JPEG"
               alt="Luxury Sauna Interior"
               width={600}
               height={400}
