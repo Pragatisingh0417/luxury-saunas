@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
 export default function ContactPage() {
@@ -48,7 +49,7 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-amber-500 text-2xl" />
-              <span>+1  7192462128</span>
+              <span>+1 7192462128</span>
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-500 text-2xl" />
@@ -60,20 +61,19 @@ export default function ContactPage() {
             </div>
           </div>
 
-         {/* Map Section */}
-<div className="mt-10 rounded-xl overflow-hidden shadow-lg">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6149.64265700004!2d-106.430361!3d39.586177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a7b49a03df831%3A0x13fd623dae9c13d6!2sLuxury%20Saunas!5e0!3m2!1sen!2sus!4v1761291783913!5m2!1sen!2sus"
-    width="100%"
-    height="300"
-    style={{ border: 0 }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    className="rounded-xl"
-  ></iframe>
-</div>
-
+          {/* Map Section */}
+          <div className="mt-10 rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6149.64265700004!2d-106.430361!3d39.586177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a7b49a03df831%3A0x13fd623dae9c13d6!2sLuxury%20Saunas!5e0!3m2!1sen!2sus!4v1761291783913!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="rounded-xl"
+            ></iframe>
+          </div>
         </motion.div>
 
         {/* Contact Form */}
@@ -136,6 +136,37 @@ export default function ContactPage() {
             Send Message
           </button>
         </motion.form>
+      </section>
+
+      {/* 👇 Our Team Section */}
+      <section className="py-16 bg-gray-100 text-center">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-3xl md:text-5xl font-extrabold mb-6 text-gray-800"
+        >
+          Meet Our Team
+        </motion.h2>
+        <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
+          Here is our team from Luxury Saunas — passionate professionals dedicated to helping you design your dream wellness experience.
+        </p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="max-w-xl mx-auto"
+        >
+          <Image
+            src="/images/teams.jpg" 
+                        alt="Luxury Saunas Team"
+            width={200}
+            height={300}
+            className="rounded-2xl shadow-lg w-full object-cover"
+          />
+        </motion.div>
       </section>
 
       {/* CTA Section */}
