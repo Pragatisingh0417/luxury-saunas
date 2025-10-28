@@ -62,9 +62,9 @@ export default function Navbar() {
           <div className="flex items-center space-x-3">
             {[
               { icon: <FaFacebookF />, href: "https://facebook.com" },
-              { icon: <FaInstagram />, href: "https://instagram.com" },
-              { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
-              { icon: <FaYoutube />, href: "https://youtube.com" },
+              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
+              // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
+              // { icon: <FaYoutube />, href: "https://youtube.com" },
             ].map(({ icon, href }, idx) => (
               <Link
                 key={idx}
@@ -122,9 +122,9 @@ export default function Navbar() {
             <div className="flex justify-center space-x-5 pt-2 text-gray-600">
               {[
                 { icon: <FaFacebookF />, href: "https://facebook.com" },
-                { icon: <FaInstagram />, href: "https://instagram.com" },
-                { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
-                { icon: <FaYoutube />, href: "https://youtube.com" },
+                { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
+                // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
+                // { icon: <FaYoutube />, href: "https://youtube.com" },
               ].map(({ icon, href }, idx) => (
                 <Link
                   key={idx}

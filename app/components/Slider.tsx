@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const images = [
   { src: "/img/about.JPEG", caption: "Experience Pure Relaxation" },
-  { src: "/banner/banner2.jpg", caption: "Luxury Meets Wellness" },
+  { src: "/images/project-4.JPEG", caption: "Luxury Meets Wellness" },
   { src: "/banner/banner3.jpg", caption: "Redefine Your Comfort" },
 ];
 

@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/banner/contact-us.jpg')] bg-cover bg-center">
+      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-2.jpeg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

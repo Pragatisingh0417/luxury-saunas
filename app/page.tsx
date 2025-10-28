@@ -3,10 +3,10 @@ import CtaSection from "./components/CtaSection";
 import Newsletter from "./components/Newsletter";
 import OurProjects from "./components/OurProjects";
 import PopupForm from "./components/PopupForm";
+import Process from "./components/Process";
 import Services from "./components/Services";
 import Slider from "./components/Slider";
 import Testimonials from "./components/Testimonials";
-import WhyChooseUs from "./components/WhyChooseUs";
 
 
 export default function Home() {
@@ -17,8 +17,8 @@ export default function Home() {
               <Slider />
               <AboutUs />
               <CtaSection />
+              <Process />
               <Services />
-              <WhyChooseUs />
               <OurProjects />
               <Testimonials />
               <Newsletter />

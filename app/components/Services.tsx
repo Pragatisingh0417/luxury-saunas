@@ -5,53 +5,70 @@ import { FaSpa, FaCouch, FaLeaf, FaTools } from "react-icons/fa";
 
 const services = [
   {
-    icon: <FaSpa size={40} className="text-amber-500" />,
+    icon: <FaSpa size={36} className="text-amber-600" />,
     title: "Custom Saunas",
-    desc: "Tailored designs to perfectly fit your space and lifestyle.",
+    desc: "Tailored designs to perfectly fit your space, lifestyle, and aesthetic.",
   },
   {
-    icon: <FaCouch size={40} className="text-amber-500" />,
+    icon: <FaCouch size={36} className="text-amber-600" />,
     title: "Spa Installations",
-    desc: "Luxury spa solutions for resorts, gyms, and wellness centers.",
+    desc: "Luxury installations for homes, resorts, and wellness centers.",
   },
   {
-    icon: <FaLeaf size={40} className="text-amber-500" />,
+    icon: <FaLeaf size={36} className="text-amber-600" />,
     title: "Eco-Friendly Technology",
-    desc: "Sustainable and energy-efficient systems for modern wellness.",
+    desc: "Energy-efficient systems built with sustainable materials and methods.",
   },
   {
-    icon: <FaTools size={40} className="text-amber-500" />,
+    icon: <FaTools size={36} className="text-amber-600" />,
     title: "Maintenance & Support",
-    desc: "Reliable service to keep your sauna in perfect condition.",
+    desc: "Dependable service to keep your sauna performing beautifully over time.",
   },
 ];
 
 export default function Services() {
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-5xl font-extrabold text-gray-800 mb-12">
-          Our <span className="text-amber-500">Services</span>
-        </h2>
-        <p className="text-gray-600 text-lg leading-relaxed mb-8">
-Luxury Saunas takes pride in its attention to detail and commitment to customer satisfaction. The sauna is equipped with the latest features and provides a relaxing and revitalizing experience that you won’t find anywhere else. From the soft lighting to the soothing music, every detail has been carefully planned to ensure an unforgettable sauna experience. 
-         </p>
-          <p className="text-gray-600 text-lg leading-relaxed mb-8">
-If you’re looking for a way to relax and disconnect from the world, you should definitely consider visiting Luxury Saunas. Their sauna is the perfect place to spend a few peaceful hours and leave feeling renewed and revitalized. Additionally, its location in Minturn, CO, makes it ideal for a weekend getaway or a day trip.  
-       </p>
-        <div className="grid md:grid-cols-4 gap-8">
+    <section className="py-20 bg-[#faf8f5]">
+      <div className="max-w-8xl mx-auto px-6 text-center">
+        {/* Header */}
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
+        >
+          Our <span className="text-amber-600">Services</span>
+        </motion.h2>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto mb-16"
+        >
+          Luxury Saunas is dedicated to craftsmanship and precision from design
+          to installation. Each sauna is built to elevate your wellness
+          experience with meticulous attention to detail.
+        </motion.p>
+
+        {/* Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((s, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: i * 0.2 }}
+              transition={{ duration: 0.6, delay: i * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-50 rounded-2xl p-8 shadow-md hover:shadow-xl transition"
+              className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="mb-4 flex justify-center">{s.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">{s.title}</h3>
-              <p className="text-gray-600">{s.desc}</p>
+              <div className="flex justify-center mb-5">{s.icon}</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                {s.title}
+              </h3>
+              <p className="text-gray-600 leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
         </div>

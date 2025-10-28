@@ -51,14 +51,12 @@ export default function AboutPage() {
               Experience <span className="text-amber-500">Luxury & Relaxation</span>
             </h2>
             <p className="text-gray-600 mb-6">
-              Luxury Saunas is dedicated to providing a unique sauna experience at <strong>301 Boulder St, Minturn, CO 81645, United States</strong>. Perfect for a peaceful getaway, our saunas are designed to help you relax, de-stress, and revitalize.
+              Luxury Saunas  <strong>was started in 2018 in Minturn Colorado by Matt Hansen.</strong>We offer design construction, implementation and final fire up of all saunas. We specialize in high-end custom Sauna design and installation . We also offer installation of all types of outdoor saunas, including but not limited to barrels, cubes, a frames. 
             </p>
             <p className="text-gray-600 mb-6">
-              Our team specializes in high-quality saunas and wellness solutions. Each sauna is known for its comfort, cleanliness, and relaxing atmosphere — a true haven for wellness enthusiasts.
+Luxury saunas has extensive expertise in saunas, offering its clients a wide range of options to choose from. Our saunas are custom tailored to any space you have available inside or outside your home. 
             </p>
-            <p className="text-gray-600 mb-8">
-              We pride ourselves on attention to detail and customer satisfaction. From ambient lighting to calming music, every element is carefully designed to provide an unforgettable luxury sauna experience.
-            </p>
+          
             <Link
               href="/contact-us"
               className="bg-amber-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-600 transition"

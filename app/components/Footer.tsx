@@ -60,7 +60,7 @@ export default function Footer() {
             <li className="flex items-start space-x-3">
               <FaMapMarkerAlt className="text-amber-500 text-xl mt-1" />
               <span>
-                301 Boulder St, Minturn, CO 81645, <br /> Estados Unidos.
+                301 Boulder street  #1522 minturn, CO 81645
               </span>
             </li>
             <li className="flex items-center space-x-3">
@@ -85,8 +85,8 @@ export default function Footer() {
             {[
               { icon: <FaFacebookF />, href: "https://facebook.com" },
               { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
-              { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
-              { icon: <FaYoutube />, href: "https://youtube.com" },
+              // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
+              // { icon: <FaYoutube />, href: "https://youtube.com" },
             ].map(({ icon, href }, idx) => (
               <Link
                 key={idx}

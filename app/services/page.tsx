@@ -64,6 +64,7 @@ export default function ServicesPage() {
         <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-12">
           Explore Our <span className="text-amber-500">Sauna Products</span>
         </h2>
+        
 
         <div className="grid md:grid-cols-2 gap-12">
           {services.map((service, i) => (
