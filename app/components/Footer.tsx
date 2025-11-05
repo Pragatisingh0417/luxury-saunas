@@ -60,21 +60,21 @@ export default function Footer() {
             <li className="flex items-start space-x-3">
               <FaMapMarkerAlt className="text-amber-500 text-xl mt-1" />
               <span>
-                301 Boulder street  #1522 minturn, CO 81645
+               301 Boulder St, Minturn, CO 81645, United States
               </span>
             </li>
-            <li className="flex items-center space-x-3">
+            {/* <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-amber-500 text-xl" />
               <span>+1  7192462128</span>
-            </li>
+            </li> */}
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-amber-500 text-xl" />
-              <span>info@luxurysaunas.com</span>
+              <span>Luxurysauna1@gmail.com</span>
             </li>
-            <li className="flex items-center space-x-3">
+            {/* <li className="flex items-center space-x-3">
               <FaClock className="text-amber-500 text-xl" />
               <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -83,8 +83,8 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-white mb-5">Follow Us</h4>
           <div className="flex space-x-4">
             {[
-              { icon: <FaFacebookF />, href: "https://facebook.com" },
-              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
+              // { icon: <FaFacebookF />, href: "https://facebook.com" },
+              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/?igsh=MXZ0bzVjMDAxODZmbA%3D%3D#" },
               // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
               // { icon: <FaYoutube />, href: "https://youtube.com" },
             ].map(({ icon, href }, idx) => (

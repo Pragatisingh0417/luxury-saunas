@@ -61,8 +61,8 @@ export default function Navbar() {
           {/* Social Icons */}
           <div className="flex items-center space-x-3">
             {[
-              { icon: <FaFacebookF />, href: "https://facebook.com" },
-              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
+              // { icon: <FaFacebookF />, href: "https://facebook.com" },
+              { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/?igsh=MXZ0bzVjMDAxODZmbA%3D%3D#" },
               // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
               // { icon: <FaYoutube />, href: "https://youtube.com" },
             ].map(({ icon, href }, idx) => (
@@ -121,8 +121,8 @@ export default function Navbar() {
             {/* Social Icons for Mobile */}
             <div className="flex justify-center space-x-5 pt-2 text-gray-600">
               {[
-                { icon: <FaFacebookF />, href: "https://facebook.com" },
-                { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/" },
+                // { icon: <FaFacebookF />, href: "https://facebook.com" },
+                { icon: <FaInstagram />, href: "https://www.instagram.com/luxurysaunas/?igsh=MXZ0bzVjMDAxODZmbA%3D%3D#" },
                 // { icon: <FaLinkedinIn />, href: "https://linkedin.com" },
                 // { icon: <FaYoutube />, href: "https://youtube.com" },
               ].map(({ icon, href }, idx) => (

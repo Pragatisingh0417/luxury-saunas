@@ -9,20 +9,20 @@ export default function AboutPage() {
   return (
     <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-1.jpeg')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-black/50"></div>
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="relative text-center text-white z-10 px-6"
-        >
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-4">About Us</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            Discover Luxury Saunas — your destination for a premium, relaxing sauna experience.
-          </p>
-        </motion.div>
-      </section>
+        <section className="relative h-[80vh] flex items-center justify-center bg-[url('/images/services-1.jpeg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-black/50"></div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="relative text-center text-white z-10 px-6"
+          >
+            <h1 className="text-4xl md:text-6xl font-extrabold mb-4">About Us</h1>
+            <p className="text-lg md:text-xl max-w-2xl mx-auto">
+              Discover Luxury Saunas — your destination for a premium, relaxing sauna experience.
+            </p>
+          </motion.div>
+        </section>
 
       {/* Company Overview */}
       <section className="py-20 container mx-auto px-6 md:px-16">
@@ -51,7 +51,7 @@ export default function AboutPage() {
               Experience <span className="text-amber-500">Luxury & Relaxation</span>
             </h2>
             <p className="text-gray-600 mb-6">
-              Luxury Saunas  <strong>was started in 2018 in Minturn Colorado by Matt Hansen.</strong>We offer design construction, implementation and final fire up of all saunas. We specialize in high-end custom Sauna design and installation . We also offer installation of all types of outdoor saunas, including but not limited to barrels, cubes, a frames. 
+              Luxury Saunas  <strong> was started in 2018 in Minturn Colorado by Matt Hansen.</strong>We offer design construction, implementation and final fire up of all saunas. We specialize in high-end custom Sauna design and installation . We also offer installation of all types of outdoor saunas, including but not limited to barrels, cubes, a frames. 
             </p>
             <p className="text-gray-600 mb-6">
 Luxury saunas has extensive expertise in saunas, offering its clients a wide range of options to choose from. Our saunas are custom tailored to any space you have available inside or outside your home. 

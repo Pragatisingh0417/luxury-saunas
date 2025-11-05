@@ -45,20 +45,20 @@ export default function ContactPage() {
           <div className="space-y-5">
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="text-amber-500 text-2xl" />
-              <span>301 Boulder St, Minturn, CO 81645, Estados Unidos.</span>
+              <span>301 Boulder St, Minturn, CO 81645, United States</span>
             </div>
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-amber-500 text-2xl" />
               <span>+1 7192462128</span>
-            </div>
+            </div> */}
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-500 text-2xl" />
-              <span>info@luxurysaunas.com</span>
+              <span>Luxurysauna1@gmail.com</span>
             </div>
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <FaClock className="text-amber-500 text-2xl" />
               <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Map Section */}

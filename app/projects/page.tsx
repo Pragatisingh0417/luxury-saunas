@@ -16,21 +16,16 @@ const products = [
   {
     name: "Outdoor Barrel Sauna",
     desc: "An architectural masterpiece for your backyard — modern design, pure relaxation.",
-    image: "/images/project-2.JPEG",
+    image: "/images/barrel.jpeg",
     video: "/videos/video-2.MOV",
   },
   {
     name: "Infrared Sauna Cabin",
     desc: "Revolutionary infrared heating technology that rejuvenates your body from the inside out.",
-    image: "/images/project-4.JPEG",
+    image: "/images/infrared.jpeg",
     video: "/videos/video-3.mp4",
   },
-  {
-    name: "Steam Room Deluxe",
-    desc: "Experience the healing power of steam in our beautifully designed luxury steam rooms.",
-    image: "/images/project-5.JPEG",
-    video: "/videos/video-4.MOV",
-  },
+
   {
     name: "Custom Sauna Design",
     desc: "Tailor-made saunas built to your specifications, aesthetics, and wellness goals.",
@@ -42,19 +37,10 @@ const products = [
     desc: "Premium accessories including heaters, lighting, control panels, and aroma diffusers.",
     image: "/images/services-4.jpeg",
     video: "/videos/video-6.MOV",
+    
   },
-  {
-    name: "Sauna Accessories",
-    desc: "Premium accessories including heaters, lighting, control panels, and aroma diffusers.",
-    image: "/images/services-3.jpeg",
-    video: "/videos/video-7.MOV",
-  },
-  {
-    name: "Sauna Accessories",
-    desc: "Premium accessories including heaters, lighting, control panels, and aroma diffusers.",
-    image: "/images/services-2.jpeg",
-    video: "/videos/video-8.mp4",
-  },
+  
+  
 ];
 
 export default function Projects() {
