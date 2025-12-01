@@ -184,7 +184,7 @@ export default function ContactPage() {
           Get in touch today and transform your wellness experience with our custom sauna designs.
         </p>
         <a
-          href="tel:+919876543210"
+          href="tel: +19704011100"
           className="bg-white text-amber-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
         >
           Call Us Now

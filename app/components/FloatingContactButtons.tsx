@@ -10,8 +10,8 @@ interface FloatingContactButtonsProps {
 }
 
 const FloatingContactButtons: React.FC<FloatingContactButtonsProps> = ({
-  phone = "7192462128",
-  countryCode = "91",
+  phone = "9704011100",
+  countryCode = "1",
   whatsappMessage = "Hi! I found your site and would like to chat.",
 }) => {
   const whatsappNumber = `${countryCode}${phone.replace(/[^0-9]/g, "")}`;

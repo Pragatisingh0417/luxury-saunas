@@ -23,7 +23,7 @@ const products = [
     name: "Infrared Sauna Cabin",
     desc: "Revolutionary infrared heating technology that rejuvenates your body from the inside out.",
     image: "/images/infrared.jpeg",
-    video: "/videos/video-3.mp4",
+    video: "/videos/video-3.MP4",
   },
 
   {
