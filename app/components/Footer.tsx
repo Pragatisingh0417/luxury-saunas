@@ -63,10 +63,10 @@ export default function Footer() {
                301 Boulder St, Minturn, CO 81645, United States
               </span>
             </li>
-            {/* <li className="flex items-center space-x-3">
+            <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-amber-500 text-xl" />
-              <span>+1  7192462128</span>
-            </li> */}
+              <span> +19704011100</span>
+            </li>
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-amber-500 text-xl" />
               <span>Luxurysauna1@gmail.com</span>

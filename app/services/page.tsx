@@ -19,13 +19,9 @@ const services = [
   {
     title: "Infrared Saunas",
     desc: "Rejuvenate your body and mind with modern infrared saunas that provide deep-penetrating heat for superior wellness benefits.",
-    image: "/images/services-3.jpeg",
+    image: "/images/infrared.jpeg",
   },
-  {
-    title: "Steam Rooms",
-    desc: "Luxury steam solutions for spas, resorts, and homes. Enhance your space with the ultimate steam experience.",
-    image: "/images/services-4.jpeg",
-  },
+
   {
     title: "Custom Sauna Design",
     desc: "Our team works closely with you to create fully customized sauna experiences tailored to your aesthetic and functional needs.",

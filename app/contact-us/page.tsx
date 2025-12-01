@@ -47,10 +47,10 @@ export default function ContactPage() {
               <FaMapMarkerAlt className="text-amber-500 text-2xl" />
               <span>301 Boulder St, Minturn, CO 81645, United States</span>
             </div>
-            {/* <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-amber-500 text-2xl" />
-              <span>+1 7192462128</span>
-            </div> */}
+              <span> +19704011100</span>
+            </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-amber-500 text-2xl" />
               <span>Luxurysauna1@gmail.com</span>
